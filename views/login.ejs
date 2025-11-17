@@ -1,0 +1,21 @@
+<h2>Connexion / Inscription</h2>
+
+<form action="/auth/login" method="POST">
+  <input type="text" name="username" placeholder="Email">
+  <input type="password" name="password" placeholder="Mot de passe">
+  <button type="submit">Connexion</button>
+</form>
+
+<br>
+
+<form action="/auth/register" method="POST">
+  <input type="text" name="username" placeholder="Email">
+  <input type="password" name="password" placeholder="Mot de passe">
+  <button type="submit">Créer un compte</button>
+</form>
+
+<br>
+
+<h3>Ou se connecter via :</h3>
+<a href="/auth/google">Google</a> |
+<a href="/auth/github">GitHub</a>
